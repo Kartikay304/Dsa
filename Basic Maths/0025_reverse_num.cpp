@@ -1,7 +1,7 @@
 // 0025_reverse_num.cpp
 
 // Problem: Reverse a Number
-// URL: https://takeuforward.org/plus/dsa/problems/count-number-of-odd-digits-in-a-number?category=beginner-problem&subcategory=basic-maths
+// URL: https://takeuforward.org/plus/dsa/problems/reverse-a-number?category=beginner-problem&subcategory=basic-maths
 // Goal: Return the integer formed by placing digits in reverse order
 
 #include <bits/stdc++.h>
