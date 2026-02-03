@@ -1,9 +1,9 @@
 // 0003_pattern_3.cpp
-/*   N=5=>  1
-            12
-            123
-            1234
-            12345
+/*  N=5=>  1
+           12
+           123
+           1234
+           12345
 */
 //URL: https://takeuforward.org/plus/dsa/problems/pattern-3?category=beginner-problem&subcategory=patterns
 
