@@ -1,3 +1,5 @@
+// 0009_pattern_9.cpp
+
 /*  N=5 =>       * 
                 ***
                *****
@@ -9,6 +11,8 @@
                 ***
                  *
 */
+//URL:https://takeuforward.org/plus/dsa/problems/pattern-9?category=beginner-problem&subcategory=patterns
+
 #include<bits/stdc++.h>
 using namespace std;
 
