@@ -1,3 +1,5 @@
+//0012_pattern_12.cpp
+
 /* N=5 =>
             1        1
             12      21
@@ -5,6 +7,7 @@
             1234  4321
             1234554321
 */
+//URL: https://takeuforward.org/plus/dsa/problems/pattern-12?category=beginner-problem&subcategory=patterns
 
 #include<bits/stdc++.h>
 using namespace std;
