@@ -5,7 +5,7 @@
             ****
             *****
 */
-// URL: https://takeuforward.org/plus/dsa/problems/pattern-2?category=beginner-problem&subcategory=patterns
+//URL: https://takeuforward.org/plus/dsa/problems/pattern-2?category=beginner-problem&subcategory=patterns
 
 #include<bits/stdc++.h>
 using namespace std;
