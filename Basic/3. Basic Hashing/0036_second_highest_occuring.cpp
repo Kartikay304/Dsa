@@ -39,6 +39,6 @@ int main() {
         cin>>num;
         vec.push_back(num);
     }
-    cout<<"Second Height Occurring Element is:: "<<heighestOccuring(vec,n);
+    cout<<"Second Highest Occurring Element is:: "<<heighestOccuring(vec,n);
     return 0;
 }
