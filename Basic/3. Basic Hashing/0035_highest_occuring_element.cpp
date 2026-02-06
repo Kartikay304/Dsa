@@ -1,4 +1,4 @@
-// 0035_height_occuring_element.cpp
+// 0035_highest_occuring_element.cpp
 
 // Problem: Highest Occurring Element in an Array
 // URL: https://takeuforward.org/plus/dsa/problems/highest-occurring-element-in-an-array?category=beginner-problem&subcategory=basic-hashing
