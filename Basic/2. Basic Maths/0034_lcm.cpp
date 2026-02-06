@@ -3,6 +3,7 @@
 // Problem: LCM of Two Numbers
 // URL: https://takeuforward.org/plus/dsa/problems/lcm-of-two-numbers?category=beginner-problem&subcategory=basic-maths&tab=description&approach=optimal
 // Goal: Given two integers return their lcm. The Lowest Common Multiple (LCM) of two integers is the lowest positive integer that is divisible by both the integers.
+
 #include <bits/stdc++.h>
 using namespace std;
 

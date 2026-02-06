@@ -3,6 +3,7 @@
 // Problem: Divisors of a Number
 // URL: https://takeuforward.org/plus/dsa/problems/divisors-of-a-number?category=beginner-problem&subcategory=basic-maths
 // Goal: You are given an integer n. You need to find all the divisors of n. Return all the divisors of n as an array or list in a sorted order
+
 #include <bits/stdc++.h>
 using namespace std;
 
