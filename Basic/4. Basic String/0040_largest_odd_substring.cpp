@@ -1,8 +1,8 @@
-// 0038_largest_odd_susbtring.cpp
+// 0040_largest_odd_susbtring.cpp
 
 // Problem: Largest Odd Number in a String
 // URL: https://takeuforward.org/plus/dsa/problems/largest-odd-number-in-a-string?category=beginner-problem&subcategory=basic-strings
-// Goal: Given a string s, return the largest-valued odd integer (as a string) that is a substring of the given string s. The number returned should not have leading zero's.z
+// Goal: Given a string s, return the largest-valued odd integer (as a string) that is a substring of the given string s. The number returned should not have leading zero's.
 
 #include <bits/stdc++.h>
 using namespace std;

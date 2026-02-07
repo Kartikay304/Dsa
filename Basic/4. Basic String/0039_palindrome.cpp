@@ -1,4 +1,4 @@
-// 0038_palindrome.cpp
+// 0039_palindrome.cpp
 
 // Problem: Palindrome Check
 // URL: https://takeuforward.org/plus/dsa/problems/palindrome-check?category=beginner-problem&subcategory=basic-strings
