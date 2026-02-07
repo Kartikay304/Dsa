@@ -1,4 +1,4 @@
-// 0043_rotate_string.cpp
+// 0043_rotate_check.cpp
 
 // Problem: Rotate String
 // URL: https://takeuforward.org/plus/dsa/problems/rotate-string?category=beginner-problem&subcategory=basic-strings
