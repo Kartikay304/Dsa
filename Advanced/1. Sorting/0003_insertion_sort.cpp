@@ -1,4 +1,4 @@
-// 0002_insertion_sort.cpp
+// 0003_insertion_sort.cpp
 
 // Problem: Insertion Sort
 // URL: https://takeuforward.org/plus/dsa/problems/insertion-sorting?category=sorting&subcategory=algorithms
