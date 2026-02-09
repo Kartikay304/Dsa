@@ -7,7 +7,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int consicutiveOne(vector<int>& vec, int n) {
+int consecutiveOne(vector<int>& vec, int n) {
     int count=0,maxCount=0;
     for(int i=0;i<n;i++) {
         if(vec[i]==1) count++;
@@ -27,5 +27,5 @@ int main() {
         cin>>num;
         vec.push_back(num);
     }
-    cout<<"Maximum no of consicutive 1 is:: "<<consicutiveOne(vec,n);
+    cout<<"Maximum no of consicutive 1 is:: "<<consecutiveOne(vec,n);
 }
