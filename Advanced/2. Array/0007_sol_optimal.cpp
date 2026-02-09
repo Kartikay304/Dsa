@@ -1,4 +1,4 @@
-// 0007_rotate_byK.cpp
+// 0007_osl_optimal.cpp
 
 // Problem: Left Rotate Array by K Places
 // URL: https://takeuforward.org/plus/dsa/problems/left-rotate-array?category=arrays&subcategory=fundamentals&tab=description
@@ -7,12 +7,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void reverseVector(vector<int>& vec,int low, int high) {
+    while(low<=high) swap(vec[low++],vec[high--]); 
+}
+
 void rotateVec(vector<int>& vec, int n, int k) {
-    vector<int> temp;
     k=k%n;
-    for(int i=0;i<k;i++) temp.push_back(vec[i]);
-    for(int i=0;i<n-k;i++) vec[i]=vec[i+k];
-    for(int i=0;i<temp.size();i++) vec[n-k+i]=temp[i];
+    reverseVector(vec,0,k-1);
+    reverseVector(vec,k,n-1);
+    reverseVector(vec,0,n-1);
 }
 
 int main() {
