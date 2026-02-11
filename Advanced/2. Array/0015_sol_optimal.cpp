@@ -1,4 +1,4 @@
-// 0015_arrange_elements.cpp
+// 0015_optimal_arrange_elements.cpp
 
 // Problem: Rearrange array elements by sign
 // URL: https://takeuforward.org/plus/dsa/problems/rearrange-array-elements-by-sign?category=arrays&subcategory=faqs-medium
