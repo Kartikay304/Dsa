@@ -7,7 +7,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int inversions(vector<int>nums,int leftLow,int leftHigh,int rightLow,int rightHigh) {
+int inversions(vector<int>& nums,int leftLow,int leftHigh,int rightLow,int rightHigh) {
     int left=leftLow,count=0;
     vector<int> ans;
     while(leftLow<=leftHigh && rightLow<=rightHigh){
@@ -23,7 +23,7 @@ int inversions(vector<int>nums,int leftLow,int leftHigh,int rightLow,int rightHi
     return count;
 }
 
-int countInversion(vector<int> nums, int low, int high) {
+int countInversion(vector<int>& nums, int low, int high) {
     int count=0;
     if(low<high) {
         int mid=low+(high-low)/2;
