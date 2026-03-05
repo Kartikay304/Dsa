@@ -1,6 +1,6 @@
 // 0032_longConseq.cpp
 
-// Problem: Longest Consecutive Sequence in an Array
+// Problem: Longest Consecutive Sequence in Array
 // URL: https://takeuforward.org/plus/dsa/problems/longest-consecutive-sequence-in-an-array?subject=dsa
 // Goal: Given an array nums of n integers. sReturn the length of the longest sequence of consecutive integers. The integers in this sequence can appear in any order.
 
