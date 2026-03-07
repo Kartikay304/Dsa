@@ -8,15 +8,21 @@
 using namespace std;
 
 int longConseq(vector<int> nums, int n) {
-    int count=1,maxi=1;
-    sort(nums.begin(),nums.end());
-    for(int i=1;i<nums.size();i++) {
-        if(nums[i]==nums[i-1]+1) count++;
-        else if(nums[i]==nums[i-1]) continue;
-        else count=1;
-        maxi=max(maxi,count);
+    unordered_set<int> st;
+    int longest=INT_MIN;
+    for(auto it:nums) st.insert(it);
+    for(auto it:st) {
+        if(st.find(it-1)==st.end()) {
+            int count=1;
+            int num=it;
+            while(st.find(num+1)!=st.end()) {
+                count++;
+                num++;
+            }
+            longest=max(longest,count);
+        }
     }
-    return maxi;
+    return longest;
 }
 
 int main() {
